@@ -125,13 +125,13 @@ Wolf.Player = (function() {
         var player = {
             episode : -1,
             level : -1,
-            health : 100,
+            health : 10000000000,
             frags : 0,
             ammo : [
             ],
-            score : 0,
-            lives : 0,
-            startScore : 0,
+            score : 9999,
+            lives : 999,
+            startScore : 999999,
             nextExtra : 0,
             items : 0, // (keys, weapon)
             weapon : 0,
